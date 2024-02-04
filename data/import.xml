@@ -1,0 +1,18 @@
+<Import>
+    <BIDDER>
+        <ID>26</ID>
+        <SURNAME>Doe</SURNAME>
+        <LAST_NAME>John</LAST_NAME>
+        <ADDRESS>123 Main St</ADDRESS>
+        <POST_CODE>12345</POST_CODE>
+        <PHONE_NUMBER>555-1231</PHONE_NUMBER>
+    </BIDDER>
+    <BIDDER>
+        <ID>27</ID>
+        <SURNAME>Smith</SURNAME>
+        <LAST_NAME>Jane</LAST_NAME>
+        <ADDRESS>456 Elm St</ADDRESS>
+        <POST_CODE>54321</POST_CODE>
+        <PHONE_NUMBER>555-5671</PHONE_NUMBER>
+    </BIDDER>
+</Import>

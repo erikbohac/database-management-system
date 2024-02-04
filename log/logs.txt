@@ -1,0 +1,18 @@
+2024-02-04 16:17:12,880 - INFO - Program terminated..
+2024-02-04 16:17:30,447 - INFO - Program terminated..
+2024-02-04 16:17:38,325 - INFO - Manager mode activated
+2024-02-04 16:17:39,827 - ERROR - Duplicate entry '26' for key 'BIDDER.PRIMARY'
+2024-02-04 16:17:44,896 - INFO - Program terminated..
+2024-02-04 16:18:29,106 - INFO - Program was closed
+2024-02-04 16:48:53,804 - ERROR - There was a problem connecting to database
+2024-02-04 16:48:58,645 - INFO - Program terminated..
+2024-02-04 19:43:15,749 - ERROR - There was a problem connecting to the database
+2024-02-04 19:43:48,461 - ERROR - There was a problem connecting to the database
+2024-02-04 19:43:51,685 - INFO - Program terminated..
+2024-02-04 19:43:55,541 - ERROR - There was a problem connecting to the database
+2024-02-04 19:51:52,574 - ERROR - There was a problem connecting to the database
+2024-02-04 19:52:24,130 - INFO - package: mysql.connector.plugins
+2024-02-04 19:52:24,130 - INFO - plugin_name: caching_sha2_password
+2024-02-04 19:52:24,130 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2024-02-04 19:52:24,132 - INFO - Manager mode activated
+2024-02-04 19:52:29,257 - INFO - Program terminated..
