@@ -10,7 +10,7 @@ Classes:
 
 
 import xml.etree.ElementTree as Et
-import enum
+from enum import Enum
 from .command import *
 from .logics import *
 
@@ -53,7 +53,7 @@ class Application:
         self._logger = logger
         self.invoker = Invoker()
 
-    class CRUDOperation(enum.Enum):
+    class CRUDOperation(Enum):
         """
         An enumeration representing CRUD operations.
 
@@ -179,7 +179,7 @@ class Application:
             data_type = str(params[param]).split("'")[1].upper()
             user_data = self._controller.get_input(subdir=[self.database_name, class_name, f'{param}<{data_type}>'])
             try:
-                if isinstance(params[param], enum.EnumType):
+                if type(params[param]) is type(Enum):
                     user_data = user_data.upper()
                 converted_input = validate_input(params[param], user_data)
                 user_params.append(converted_input)

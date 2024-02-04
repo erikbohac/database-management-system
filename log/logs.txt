@@ -7,12 +7,10 @@
 2024-02-04 16:48:53,804 - ERROR - There was a problem connecting to database
 2024-02-04 16:48:58,645 - INFO - Program terminated..
 2024-02-04 19:43:15,749 - ERROR - There was a problem connecting to the database
-2024-02-04 19:43:48,461 - ERROR - There was a problem connecting to the database
-2024-02-04 19:43:51,685 - INFO - Program terminated..
-2024-02-04 19:43:55,541 - ERROR - There was a problem connecting to the database
-2024-02-04 19:51:52,574 - ERROR - There was a problem connecting to the database
-2024-02-04 19:52:24,130 - INFO - package: mysql.connector.plugins
-2024-02-04 19:52:24,130 - INFO - plugin_name: caching_sha2_password
-2024-02-04 19:52:24,130 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
-2024-02-04 19:52:24,132 - INFO - Manager mode activated
-2024-02-04 19:52:29,257 - INFO - Program terminated..
+2024-02-04 19:43:48,461 - ERROR - There was a problem connecting to the database2024-02-04 21:36:30,316 - INFO - package: mysql.connector.plugins
+2024-02-04 21:36:30,316 - INFO - plugin_name: caching_sha2_password
+2024-02-04 21:36:30,316 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2024-02-04 21:36:30,317 - INFO - Manager mode activated
+2024-02-04 21:37:03,051 - INFO - Program terminated..
+2024-02-04 21:57:58,758 - ERROR - There was a problem connecting to the database
+2024-02-04 21:58:01,922 - ERROR - To perform this action, you must be in manager mode

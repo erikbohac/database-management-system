@@ -106,6 +106,12 @@ Program will always inform you if the operation was successful or not. If you en
 
 Where Hours, Minutes and Seconds are not required.
 
+## Outputs
+Program informs about every action with short descriptive message. Output of **SELECTs** or **REPORTs** are reformatted into table. If program is runned in small windows, the text can be scattered in the windows. Than you can just resize the windows so the text is shown correctly and will organized.
+
+## Database Report
+Program have flexible access to database views. You can obtain report generated from view. If new database view is made, program automatically detects it and can generate report based on it.
+
 ## Program Output
 With each operation, program will inform you about status. If you use `SELECT` or `REPORT`, program will pint data in text table as output.
 
@@ -115,6 +121,9 @@ The application handles various error states gracefully and provides informative
 ## Third-Party Libraries
 The Database Manager utilizes the following third-party libraries:
 - `mysql-connector-python`: Python onnector for MySQL database
+
+## Tests
+Folder `/test` contains file [TestCase](./test/TestCase.pdf). There are prepared steps for testing various functions of the program.
 
 ## Project Summary
 The Database Manager provides a comprehensive solution for managing auctions and related entities. It offers a user-friendly interface, robust database management capabilities, and extensive error handling. With its flexible configuration options and support for data import, the system meets the requirements of auction management effectively.
