@@ -113,7 +113,7 @@ Program informs about every action with short descriptive message. Output of **S
 Program have flexible access to database views. You can obtain report generated from view. If new database view is made, program automatically detects it and can generate report based on it.
 
 ## Program Output
-With each operation, program will inform you about status. If you use `SELECT` or `REPORT`, program will pint data in text table as output.
+With each operation, program will inform you about status. If you use `SELECT` or `REPORT`, program will print data in text table as output.
 
 ## Error Handling
 The application handles various error states gracefully and provides informative error messages to users. Common errors include database connection failures, invalid input data, and file loading errors.
